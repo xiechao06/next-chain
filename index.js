@@ -1,3 +1,5 @@
+import '@babel/polyfill'
+
 function invokeNextChain (...args) {
   return async function (...funcs) {
     if (Array.isArray(funcs[0])) {

@@ -61,3 +61,5 @@ typings/
 .next
 
 *.sw[p|o]
+
+dist/
