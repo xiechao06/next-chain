@@ -1,0 +1,15 @@
+{
+  "name": "next-chain",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "index.js",
+  "repository": "git@github.com:xiechao06/next-chain.git",
+  "author": "xiechao06 <xiechao06@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape -r @babel/register test.js | tap-spec"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
